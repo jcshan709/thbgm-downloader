@@ -1,0 +1,13 @@
+[package]
+name = "thbgm-downloader"
+version = "0.1.0"
+authors = [ "jcshan709 <jcshan709@163.com>" ]
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.101"
+clap = { version = "4.5.58", features = ["derive"] }
+scraper = "0.25.0"
+surf = "2.3.2"
+tokio = { version = "1.49.0", features = ["full"] }
+url = "2.5.8"
